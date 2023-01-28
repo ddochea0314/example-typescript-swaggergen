@@ -1,4 +1,4 @@
-swagger 및 [swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) 를 이용하여 api 코드를 자동생성 해주는 도구 예제
+# [swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) 자동생성도구 예제
 
 아래와 같은 순서로 테스트 가능
 
