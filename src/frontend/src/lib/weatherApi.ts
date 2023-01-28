@@ -34,12 +34,24 @@ export enum DayOfWeek {
 	Value6 = 6
 }
 
+/** 날씨 DTO */
 export interface WeatherForecast {
 	date?: DateOnly;
-	/** @format int32 */
+	/**
+	 * 섭씨
+	 * @format int32
+	 * @example 1
+	 */
 	temperatureC?: number;
-	/** @format int32 */
+	/**
+	 * 화씨
+	 * @format int32
+	 */
 	temperatureF?: number;
+	/**
+	 * 날씨 요약
+	 * @example "Cool"
+	 */
 	summary?: string | null;
 }
 
